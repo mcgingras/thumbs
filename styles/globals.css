@@ -12,6 +12,7 @@ body {
   top: 0;
   left: 0;
   display: block;
+  pointer-events: none;
 }
 
 .cursor-sm {
@@ -21,4 +22,16 @@ body {
   top: 0;
   left: 0;
   display: none;
+  pointer-events: none;
+}
+
+.hover-sq {
+  display: block;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+.hover-sq:hover {
+  background-color: blue;
 }

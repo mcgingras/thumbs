@@ -53,6 +53,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <div className="hover-sq"></div>
         <img src="thumb.png" className="cursor" />
         <img src="thumb.png" className="cursor-sm" />
       </main>
